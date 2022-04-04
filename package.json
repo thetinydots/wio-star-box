@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "workshore website interaction package",
   "main": "build/index.js",
+  "repository": "https://github.com/thetinydots/wio-star-box.git",
   "author": "Virat Patel",
   "license": "MIT",
   "private": false,
