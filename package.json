@@ -1,0 +1,27 @@
+{
+  "name": "wio-starbox",
+  "version": "1.0.0",
+  "description": "workshore website interaction package",
+  "main": "build/index.js",
+  "author": "Virat Patel",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --exec 'yarn build'",
+    "build": "tsc && rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@open-wc/building-rollup": "^2.0.1",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "konva": "^8.3.5"
+  }
+}
